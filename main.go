@@ -23,8 +23,7 @@ func main() {
 		},
 	}
 
-	pointer := &alex
-	pointer.updateName("Alex222")
+	alex.updateName("Alex New value")
 	alex.print()
 }
 

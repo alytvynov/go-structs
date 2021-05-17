@@ -8,15 +8,15 @@
 ### 2nd way
 ```bash
     var a persone
-	a.firstName = "Alex"
-	a.lastName = "Jonhson"
+    a.firstName = "Alex"
+    a.lastName = "Jonhson"
 ```
 
 ### Pointer
 ```
-pointer := &p1
-...
-func (pointer *persone) updatePersone {
+    pointer := &p1
+    ...
+    func (pointer *persone) updatePersone {
 
-}
+    }
 ```
