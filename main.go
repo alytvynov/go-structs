@@ -14,17 +14,17 @@ type persone struct {
 }
 
 func main() {
-	alex := persone{
-		firstName: "Alex",
-		lastName:  "Anderson",
+	anton := persone{
+		firstName: "Anton",
+		lastName:  "Lytvynov",
 		contactInfo: contactInfo{
-			email:   "alex.anderson@gmail.com",
-			zipCode: 12345,
+			email:   "anton.lytvynov@gmail.com",
+			zipCode: 49000,
 		},
 	}
 
-	alex.updateName("Alex New value")
-	alex.print()
+	anton.updateName("Anton New Value")
+	anton.print()
 }
 
 func (pointerToPerson *persone) updateName(newFirstName string) {
